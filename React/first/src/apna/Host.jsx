@@ -18,7 +18,12 @@ const Host=()=>{
 
 function Fruit (){
     return(
-    <h1> Apple </h1>
+        <div>
+            <h1> Apple </h1>
+            <h1> Banana</h1>
+            <h1>Mango</h1>
+        </div>
+        
     )
 }
 
