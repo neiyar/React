@@ -1,13 +1,18 @@
-import React from "react"
-import Test from "./Test"
-
+import React, { useState } from "react"
+import './App.css'
+import viteLogo from '/vite.svg'
+import Test from './Test'
+import Host from "./apna/Host"
 function App() {
+  const [counter, setCounter]=useState(0)
 
 
   return (
+    
    <div>
-    <h1>hello </h1>
-    <Test/>
+    <h1> this is react </h1>
+   [-] <Test/> 
+    <Host/>
    </div>
   )
 }
