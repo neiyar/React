@@ -10,6 +10,7 @@ const Host=()=>{
             <h1>hello how are you!{sum()}</h1>
             
             < Fruit/>
+            <Animal/>
         </div>
 
        </> 
@@ -29,6 +30,15 @@ function Fruit (){
 
 function sum(){
     return 10+10
+}
+
+
+function Animal(){
+    return(
+        <div>
+            <h1> Monkey </h1>
+        </div>
+    )
 }
 
 export default Host
