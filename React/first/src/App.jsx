@@ -5,10 +5,40 @@ import Test from './Test'
 import Host from "./apna/Host"
 import Jamia from "./apna/jamia"
 
-function App(){ 
+function App(){
+  const [fruit, setFruit] = useState("Apple");
+  const [count, setCount] = useState("Apple");
+  const handleFruit=()=>{
+    setFruit("Mango")
+  }
+  return(
+    <div> 
+      <h1> State in React js</h1>
+      <h1>{fruit}</h1>
+      <buttom onClick={handleFruit}>change fruit name </buttom>
+     
+    </div>
+  )
+
+ /* function callFun(){
+    alert ("this is function call")
+    
+  }
+  const fruit=(name) =>{
+    alert(name)
+  }
+  return (
+    <div>
+      <h1>Event the Function </h1>
+      <button onClick={()=>fruit("Banana")}>Click</button>
+      <button onClick={()=> fruit("Apple")}>Apple</button>
+    </div>
+  )
+  */
+
   /*return (
     <div className="rootOther">Hello world </div>
-  )*/
+  )
 
   const userName = "tech"
   var a = 20;
@@ -46,13 +76,14 @@ function App(){
         <h1>{a * b} </h1>
         <h1>{fruit()}</h1>
         <h1>{sum(5,10)}</h1>
-        <h1>{operation(20,10,"+")}</h1>
+        <h1>{operation(20,10,"+")}</h1> 
        
         <button onClick={() => alert("Denger")}> Click</button>
+
       </div>
     </>
   )
-
+*/
 
   /*
     return (
