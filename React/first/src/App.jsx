@@ -4,39 +4,60 @@ import viteLogo from '/vite.svg'
 import Test from './Test'
 import Host from "./apna/Host"
 import Jamia from "./apna/jamia"
+import Counter from "./apna/Counter"
 
-function App(){
-  const [fruit, setFruit] = useState("Apple");
-  const [count, setCount] = useState("Apple");
-  const handleFruit=()=>{
-    setFruit("Mango")
-  }
+function App() {
+  const [display,setDisplay]=useState(true)
   return(
-    <div> 
-      <h1> State in React js</h1>
-      <h1>{fruit}</h1>
-      <buttom onClick={handleFruit}>change fruit name </buttom>
-     
+    <>
+    <div>
+      <h1>Toggle in React js</h1> 
+      {
+        display?<h1>Akhtar</h1>:<h1>neiyar</h1> 
+      }
+      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsjbit.edu.in%2Fnaac-logo-250x250%2F&psig=AOvVaw0PCleWc2LYxnPdjPoHQCif&ust=1751800505200000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMimjMrLpY4DFQAAAAAdAAAAABAE" alt="" width="100px" />
+      <button onClick={()=>setDisplay(!display)}>Toggle</button>
     </div>
+    </>
   )
 
- /* function callFun(){
-    alert ("this is function call")
-    
-  }
-  const fruit=(name) =>{
-    alert(name)
+
+
+
+
+
+  /*
+  const [fruit, setFruit] = useState("Apple");
+  const [count, setCount] = useState("Apple");
+  const handleFruit = () => {
+    setFruit("Mango")
   }
   return (
     <div>
-      <h1>Event the Function </h1>
-      <button onClick={()=>fruit("Banana")}>Click</button>
-      <button onClick={()=> fruit("Apple")}>Apple</button>
+      <h1> State in React js</h1>
+      <h1>{fruit}</h1>
+      <buttom onClick={handleFruit}>change fruit name </buttom>
+      < Counter />
     </div>
   )
-  */
+/*
+  function callFun(){
+     alert ("this is function call")
+     
+   }
+   const fruit=(name) =>{
+     alert(name)
+   }
+   return (
+     <div>
+       <h1>Event the Function </h1>
+       <button onClick={()=>fruit("Banana")}>Click</button>
+       <button onClick={()=> fruit("Apple")}>Apple</button>
+     </div>
+   )
+   
 
-  /*return (
+  return (
     <div className="rootOther">Hello world </div>
   )
 
@@ -83,9 +104,9 @@ function App(){
       </div>
     </>
   )
-*/
 
-  /*
+
+  
     return (
      
      <div>
@@ -93,14 +114,14 @@ function App(){
       <Test/> 
       <Host/>
       
-    //  <Jamia /> 
-     <Test2/> 
-      
+    /* <Jamia /> 
+     <Test2/> */ 
+   /*   
       <button onClick={()=>setCounter(counter+1)}>
         increase counter Val
       </button>
      </div>
     ) */
-}
+} 
 
 export default App
