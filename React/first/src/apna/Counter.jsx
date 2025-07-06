@@ -1,4 +1,7 @@
-import {useState} from "react"
+function User() {
+
+}
+/*import {useState} from "react"
 const Counter=()=>{
     const [count,setCount]=useState(0);
     const [rCounter,setRCounter]=useState(1200)
@@ -12,5 +15,5 @@ const Counter=()=>{
     )
 }
 
-
-export default Counter
+*/
+export default User

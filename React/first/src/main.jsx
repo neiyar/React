@@ -8,10 +8,11 @@ import Jamia from './apna/jamia.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
+
     <App />
-     <Test/>
-    <Test2/> 
-    <Jamia/>
+    <Test />
+    <Test2 />
+    <Jamia />
   </StrictMode>,
 )
 

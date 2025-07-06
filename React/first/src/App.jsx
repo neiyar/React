@@ -6,8 +6,33 @@ import Host from "./apna/Host"
 import Jamia from "./apna/jamia"
 import Counter from "./apna/Counter"
 
+
 function App() {
-  const [display,setDisplay]=useState(true)
+  return(
+    <div>
+      <h1>props in React js</h1>
+    </div>
+  )
+
+  //multiple condition in react js
+/*const [count,setCount]=useState(0)
+return(
+  <div>
+    <h1>multiple condition in React js</h1>
+    <h1>{count}</h1>
+    <button onClick={()=> setCount(count+1)}>Counter</button>
+    {
+      count==0?<h1>condition 0</h1>
+      :count==1?<h1>Condition 1</h1>
+      :count==2?<h1>condition 2</h1>
+      :<h1>Other Condition</h1> 
+    }
+  </div>
+) 
+
+
+
+  /*const [display,setDisplay]=useState(true)
   return(
     <>
     <div>
@@ -15,11 +40,12 @@ function App() {
       {
         display?<h1>Akhtar</h1>:<h1>neiyar</h1> 
       }
-      <img src="https://www.google.com/url?sa=i&url=https%3A%2F%2Fsjbit.edu.in%2Fnaac-logo-250x250%2F&psig=AOvVaw0PCleWc2LYxnPdjPoHQCif&ust=1751800505200000&source=images&cd=vfe&opi=89978449&ved=0CBEQjRxqFwoTCMimjMrLpY4DFQAAAAAdAAAAABAE" alt="" width="100px" />
+      
       <button onClick={()=>setDisplay(!display)}>Toggle</button>
     </div>
     </>
-  )
+  ) */
+  
 
 
 
@@ -122,6 +148,6 @@ function App() {
       </button>
      </div>
     ) */
-} 
-
+ 
+}
 export default App
