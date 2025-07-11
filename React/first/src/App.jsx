@@ -5,12 +5,45 @@ import Test from './Test'
 import Host from "./apna/Host"
 import Jamia from "./apna/jamia"
 import Counter from "./apna/Counter"
+import User from "./apna/Counter"
 
 
 function App() {
+  let userObject= {
+    name : "Akhtar",
+    age : "20",
+    email : "subhani@gmail.com"
+
+  }
+  let userObject2 = {
+    name: "Neiyar",
+    age: 20,
+    email: "neiyar@gmail.com"
+  }
+   let userObject3 = {
+    name: "Vani",
+    age: 19,
+    email: "vani01901@gmail.com"
+  }
+  let userObject4 = {
+    name: "Arham",
+    age: 12,
+    email: "arham@gmail.com"
+  }
+
+  let collageNames=(  IIT)
+
+
+  
+  
   return(
     <div>
       <h1>props in React js</h1>
+      <User users={userObject} />
+      <User users={userObject2} />
+      <User users={userObject3} />
+      <User users={userObject4} />
+  
     </div>
   )
 

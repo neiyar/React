@@ -2,12 +2,13 @@ import React from 'react'
 
 function Test2(){
 
-const userName = "Ajay gupta";
+//const userName = "Ajay gupta";
   return(
     <>
   
     <div>
-      <h1>{Test2}</h1>
+      <h1>Collahr
+      </h1>
     </div>
 
     </>
