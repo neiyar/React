@@ -31,7 +31,7 @@ function App() {
     email: "arham@gmail.com"
   }
 
-  let collageNames=(  IIT)
+  // let collageNames=(  'IIT', 'NIT' 'IIIT', 'JNU','JMI')
 
 
   
