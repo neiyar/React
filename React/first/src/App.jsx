@@ -31,6 +31,19 @@ function App() {
     email: "arham@gmail.com"
   }
 
+  let userObject5 = {
+    name : "Rahman",
+    age : 23,
+    email : "arh@gmail.com"
+  }
+
+  let userObject6 = {
+    name : "Ishant",
+    age : 21,
+    email : "ishant@gamil.com"
+    
+  }
+
   // let collageNames=(  'IIT', 'NIT' 'IIIT', 'JNU','JMI')
 
 
@@ -43,7 +56,8 @@ function App() {
       <User users={userObject2} />
       <User users={userObject3} />
       <User users={userObject4} />
-  
+      <User users={userObject5} />
+      <User users={userObject6} />
     </div>
   )
 
