@@ -1,55 +1,60 @@
-import React, { useState } from "react"
-import './App.css'
-import viteLogo from '/vite.svg'
-import Test from './Test'
-import Host from "./apna/Host"
-import Jamia from "./apna/jamia"
-import Counter from "./apna/Counter"
-import User from "./apna/Counter"
-
+import React, { useState } from "react";
+import "./App.css";
+import viteLogo from "/vite.svg";
+import Test from "./Test";
+import Host from "./apna/Host";
+import Jamia from "./apna/jamia";
+import Counter from "./apna/Counter";
+import User from "./apna/Counter";
 
 function App() {
-  let userObject= {
-    name : "Akhtar",
-    age : "20",
-    email : "subhani@gmail.com"
-
-  }
+  <div>
+    <h1 className="bg-white">
+      i want to check the tailwindcss install in this file
+    </h1>
+  </div>;
+  let userObject = {
+    name: "Akhtar",
+    age: "20",
+    email: "subhani@gmail.com",
+  };
   let userObject2 = {
     name: "Neiyar",
     age: 20,
-    email: "neiyar@gmail.com"
-  }
-   let userObject3 = {
+    email: "neiyar@gmail.com",
+  };
+  let userObject3 = {
     name: "Vani",
     age: 19,
-    email: "vani01901@gmail.com"
-  }
+    email: "vani01901@gmail.com",
+  };
   let userObject4 = {
     name: "Arham",
     age: 12,
-    email: "arham@gmail.com"
-  }
+    email: "arham@gmail.com",
+  };
 
   let userObject5 = {
-    name : "Rahman",
-    age : 23,
-    email : "arh@gmail.com"
-  }
+    name: "Rahman",
+    age: 23,
+    email: "arh@gmail.com",
+  };
 
   let userObject6 = {
-    name : "Ishant",
-    age : 21,
-    email : "ishant@gamil.com"
-    
+    name: "Ishant",
+    age: 21,
+    email: "ishant@gamil.com",
+  };
+
+  let userObject7 = {
+    name:"Shivam",
+    age : 24,
+    email : "Shivam@gmail.com"
   }
 
   // let collageNames=(  'IIT', 'NIT' 'IIIT', 'JNU','JMI')
 
-
-  
-  
-  return(
+  return (
     <div>
       <h1>props in React js</h1>
       <User users={userObject} />
@@ -59,10 +64,10 @@ function App() {
       <User users={userObject5} />
       <User users={userObject6} />
     </div>
-  )
+  );
 
   //multiple condition in react js
-/*const [count,setCount]=useState(0)
+  /*const [count,setCount]=useState(0)
 return(
   <div>
     <h1>multiple condition in React js</h1>
@@ -92,12 +97,6 @@ return(
     </div>
     </>
   ) */
-  
-
-
-
-
-
 
   /*
   const [fruit, setFruit] = useState("Apple");
@@ -188,13 +187,12 @@ return(
       <Host/>
       
     /* <Jamia /> 
-     <Test2/> */ 
-   /*   
+     <Test2/> */
+  /*   
       <button onClick={()=>setCounter(counter+1)}>
         increase counter Val
       </button>
      </div>
     ) */
- 
 }
-export default App
+export default App;
