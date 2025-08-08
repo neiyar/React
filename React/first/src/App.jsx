@@ -40,18 +40,6 @@ function App() {
     email: "arh@gmail.com",
   };
 
-  let userObject6 = {
-    name: "Ishant",
-    age: 21,
-    email: "ishant@gamil.com",
-  };
-
-  let userObject7 = {
-    name:"Shivam",
-    age : 24,
-    email : "Shivam@gmail.com"
-  }
-
   // let collageNames=(  'IIT', 'NIT' 'IIIT', 'JNU','JMI')
 
   return (
